@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: darkgoldenrod;
+    color: darkgreen;
+
+    padding: 10px;
+}
+.pan{
+    background-color: burlywood;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 2em;
+    
+}
+
+.lechuga{
+    background-color: green;
+    height: 100px;
+}
+
+.jitomate{
+    background-color: rgb(138, 12, 12);
+    height: 20px;
+}
+
+.cebolla{
+    background-color: rgb(245, 230, 212);
+    height: 20px;
+}
+
+.queso{
+    background-color: rgb(241, 212, 46);
+    height: 10px;
+
+}
