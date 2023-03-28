@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+section{
+    background-color: khaki;
+    border: 2px solid purple;
+}
+aside{
+    background-color: aquamarine;
+}
+
+#principal{
+    background-color: skyblue;
+    grid-column: 2/4;
+}
+article{
+    background-color: chocolate;
+    border: 3px solid rgb(0, 70, 128);
+    grid-column: span 2;
+
+
+}
