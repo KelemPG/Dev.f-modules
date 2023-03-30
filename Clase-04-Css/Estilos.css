@@ -1,40 +1,76 @@
-*{
+body, header, main {
     padding: 0;
     margin: 0;
 }
 
-
-header{
-    background-color: darkgoldenrod;
-    color: darkgreen;
+header {
+    background-color: darkblue;
+    color: white;
 
     padding: 10px;
 }
-.pan{
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.ensancha1{
+    flex-grow: 1;
+}
+
+.ensancha2{
+    flex-grow: 2;
+}
+
+.ensancha3{
+    flex-grow: 3;
+}
+
+.pan {
     background-color: burlywood;
+
+    margin: 1em;
+
     padding-top: 2em;
     padding-bottom: 2em;
+
     border-radius: 2em;
-    
+
+    text-align:center;
 }
 
-.lechuga{
+.lechuga {
     background-color: green;
-    height: 100px;
-}
-
-.jitomate{
-    background-color: rgb(138, 12, 12);
-    height: 20px;
-}
-
-.cebolla{
-    background-color: rgb(245, 230, 212);
-    height: 20px;
+    /* height: 100px; */
+    height: 2em;
 }
 
 .queso{
-    background-color: rgb(241, 212, 46);
-    height: 10px;
+    background-color: rgb(255, 191, 0);
+    height: 20px;
+}
 
+.carne{
+    background-color: maroon;
+    height: 4em;
+}
+
+.mayonesa{
+    background-color: antiquewhite;
+    height: 0.5em;
+}
+
+#mamba-negra{
+    background-color: black !important;
+    color: white;
+}
+
+#mamba-negra .queso{
+    background-color: blue;
 }
