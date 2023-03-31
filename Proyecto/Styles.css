@@ -1,9 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --encabezado: #076bbd;
-    --oscuro: #212121;
-    --primario: #ffc107;
-    --secundario: #0097a7;
-    --gris: #757575;
+    --lineas: #212121;
+    --encabezados: #2b9ca8;   
 }
 
 html{
@@ -12,5 +14,58 @@ html{
 
 body{
     font-size: 16px;
+   
 }
 
+header{
+    background-color: #076bbd;
+    display: flex;
+    justify-content: space-around; 
+}
+
+header div .subtitulos{
+    background-color: #076bbd;
+}
+.titulo{
+    font-size: 6rem;
+}
+
+.name{
+    order: 2;
+}
+.image-profile{
+    grid-column: 4;
+    
+}
+header .box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitulos{
+    font-size: 3rem;
+    background-color: #77b6eb;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;  
+}
+
+.extras{
+    grid-column: 3;  
+}
+
+.section1{
+    grid-area: 1/1/1/4;
+}
+
+.section2{
+    grid-area: 2/1/2/4;
+}
+.section3{
+    grid-row: 3;
+}
