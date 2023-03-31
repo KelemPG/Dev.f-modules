@@ -133,6 +133,18 @@ main{
 }
 
  footer{
+    height: 8rem;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #076bbd;
+ }
+
+ button{
+    background-color: transparent;
+    border-radius: 1rem;
+    margin: 0.5rem;
  }
  
