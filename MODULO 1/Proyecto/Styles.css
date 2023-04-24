@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    --encabezado: #076bbd;
+    --lineas: #212121;
+    --encabezados: #2b9ca8;   
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+   
+}
+
+header{
+    background-color: #076bbd;
+    display: flex;
+    justify-content: space-around; 
+    margin: 2rem;
+    margin-bottom: 0rem;
+    padding: 0.5rem;
+    border: 1rem;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header div .subtitulos{
+    background-color: #076bbd;
+}
+.titulo{
+    font-size: 5rem;
+}
+
+.name{
+    order: 2;
+    
+}
+.image-profile{
+    grid-column: 4;
+    margin: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border-color: #212121;
+    border-style:ridge;
+    
+}
+header .box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.subtitulos{
+    font-size: 3rem;
+    text-align-last: center;
+    background-color: #77b6eb;
+    border-radius: 1rem;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 23% 1fr 1fr; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.section1{
+    grid-area: 1/1/1/4;
+    margin: 2rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    padding: 1rem;
+    border: 1rem;
+}
+
+.section2{
+    grid-area: 2/1/2/4;
+    margin: 2rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    padding: 1rem;
+    border: 1rem;
+}
+.section3{
+    grid-area: 3/1/3/4;
+    margin: 2rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    padding: 1rem;
+    border: 1rem;
+}
+.extras{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    margin-left: 0rem;
+    padding: 0.5rem;
+    border: 1rem;
+    border-style:solid;
+    border-radius: 1rem;
+    border-color: #77b6eb;
+}
+.div4{
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 1fr;
+}
+ .icon{
+    grid-area: 1/1/1/1;
+ }
+
+ i{
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 2.5rem;
+    border: 1rem;
+ }
+ .charge{
+    font-size: 2rem;
+ }
+.p{
+    line-height: 3rem;
+}
+
+ footer{
+    height: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #076bbd;
+ }
+
+ button{
+    background-color: transparent;
+    border-radius: 1rem;
+    margin: 0.5rem;
+ }
