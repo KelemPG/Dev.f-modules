@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cajer Consulta</title>
+</head>
+<div>
+    <header class="header">
+        <a href="login.html">
+            <h1>
+                Digi<span class="segunda">Cajero</span>
+            </h1>
+        </a>
+        </header>
+</div>
+<body>
+    <div>
+        <div class="formulario contenedor saldos">
+        <h2 class="titulo">Ingresa la Cantidad: </h2>
+            <p class="formulario__mesaje" >Tu saldo es:
+                <span class="saldo " id="saldo"></span>
+            </p>
+
+            <p class="formulario__mesaje">Monto a ingresar: $
+                <input class="contenedor__recuadro__input" id="ingresoSuma" type="number">
+            </p> 
+
+            <button class="contenedor__boton" id="btn_ingresar" onclick="suma()" type="submit">Ingresar</button>
+
+            <p class="formulario__mesaje">El saldo final es:
+                <p id="totalSuma"></p>
+                <p id="mensajeS"></p>
+            </p>
+        </div>
+        <div class="formulario contenedor">
+            <h3>¿Quieres hacer algo más?</h3>
+            <nav class="contenedor__nav">
+            <a href="consultaSaldo.html">
+                <button class="contenedor__boton boton_nav">Consulta de Saldo</button>
+            </a>
+            <a href="IngresarS.html">
+                <button class="contenedor__boton boton_nav">Ingresar Saldo</button>
+            </a>
+            <a href="index.html">
+                <button class="contenedor__boton boton_nav">Cerrar Sesión</button>
+            </a>
+        </nav>
+        </div>
+
+    <script src="operaciones.js"></script>
+</body>
+</html>

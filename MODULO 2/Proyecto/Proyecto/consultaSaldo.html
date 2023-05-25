@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cajer Consulta</title>
+</head>
+<header class="header">
+    <h1>
+        Digi<span class="segunda">Cajero</span>
+    </h1>
+
+</header>
+
+<body>
+    <div class="contenedor saldos">
+        <div class=" saldo">
+        <h3 class="titulo_saldo">Tu saldo es: 
+            <p class="recuadro__saldo" id="saldo"></p>
+        </h3>
+        </div>
+        <div class="formulario">
+            <h3>¿Quieres hacer algo más?</h3>
+            <nav class="contenedor__nav">
+            <a href="retiro.html">
+                <button class="contenedor__boton boton_nav">Retiro de Saldo</button>
+            </a>
+            <a href="IngresarS.html">
+                <button class="contenedor__boton boton_nav">Ingresar Saldo</button>
+            </a>
+            <a href="index.html">
+                <button class="contenedor__boton boton_nav">Cerrar Sesión</button>
+            </a>
+        </nav>
+        </div>        
+    </div>
+
+    <script src="operaciones.js"></script>
+</body>
+<footer>
+    <div class="contenedor_footer">
+    <h5>Contáctanos</h5>
+    <a href="">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="48" height="48" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+        </svg>
+    </a>
+    <a href="">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="48" height="48" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+            <path d="M16.5 7.5l0 .01" />
+        </svg>
+    </a>
+</div>
+    
+    
+</footer>
+</html>
